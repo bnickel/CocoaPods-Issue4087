@@ -1,0 +1,6 @@
+framework module Bite {
+  umbrella header "Bite-umbrella.h"
+
+  export *
+  module * { export * }
+}

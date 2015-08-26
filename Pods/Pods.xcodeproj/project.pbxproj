@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02FFEE4A9E066BF32290D2E963273A43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EE0088EC16B7D6E6FE0AC3E96EC86A /* Foundation.framework */; };
+		0EB376E946609DB7846C138977D4A882 /* BITEUntilEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = A138DE264456EB480403E83B093C5739 /* BITEUntilEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13FB434EF55F214EA089E85CDED0C821 /* Pods-Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4DA0EC9F7751DD84063E0C9A69CDF /* Pods-Extension-dummy.m */; };
+		1A12D92E5CA8328AD4D39FC4A66D95CA /* Bite.h in Headers */ = {isa = PBXBuildFile; fileRef = 2681A0A5650F2F4EB72B28ED11C8E3EB /* Bite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AEBE6CD75FE6A90EAFB62803C753386 /* BITEMapEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FE4AB67F8F7CAE4C72EC14483F195C /* BITEMapEnumerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1F75DAEB5941583B611C51D35CC6C87B /* BITEAndEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAC5A84A073B3671B2CEE5472D7DFC4 /* BITEAndEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B1CD9C4AFD43BF681B1FDEA35C9B708 /* BITETakeEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B18D8EB707E1554E1B503E51E6D7A38 /* BITETakeEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FD14D3BCC71B970779BC3EF2D316419 /* BITEKeyPathEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 07153A43CDF21DDD2C3180DACA983DFA /* BITEKeyPathEnumerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		41CF13AAF13B08338C6AF480B0EAD17B /* BITEGrouping.h in Headers */ = {isa = PBXBuildFile; fileRef = 00D2843CADEA17C4DA42215E4EAB607B /* BITEGrouping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		547AC1FC0F0977D2BE6B61C62B0A605E /* Pods-Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E645F49C12613E8045A9A95B662AA52E /* Pods-Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596E72F120A8D846BCAFFBD185769BE4 /* BITETuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 484BD425F3373E15DA76BF05FF85019F /* BITETuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DF71A1ACC4D24B9EB9C676E2732196B /* BITEKeyPathEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0DAD39BB023EB4659D128FD854D891 /* BITEKeyPathEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65F2271E92C678C7A91A14643536EDC4 /* BITEEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D0B21AB70035637261C703A5C1988A /* BITEEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B34AD03D176DBB333816423F9D6F394 /* BITEFilterEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1617A9ACF0C9C2C02A440B957A238281 /* BITEFilterEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C0999FC6008A43231CF96E4A73A3826 /* BITEMapEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = E8AE743A35BE635478D1193B48DC6FFC /* BITEMapEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CFE5E42940EB52F93A30947ED94A3E1 /* BITEUntilEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = DB13972DC9C2287500E9B6C450863E31 /* BITEUntilEnumerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		706D13FBA7D7F9086024CFFFB1AFED89 /* BITETuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 5710932BDC45EFA071CD1997F66C438E /* BITETuple.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7CE5109A6456552F558ACE90224740E6 /* BITESkipEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B102AD273325112DEA9192EA1AFB8FD /* BITESkipEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		801D3D8C41F6C2B959C290642BC2198D /* BITEAndEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CC17CCF4648DC948F36CE4F04C2E24 /* BITEAndEnumerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		879E91A7ECB89FFAB264FE244EE17D32 /* Bite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE8DD639D24811E37907CA3BEA76019 /* Bite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C9BA1DBF1E8B2F4C6B0F8D677C1161E /* BITETakeEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CB86C8D86C4C9116496E1B837CB45A5C /* BITETakeEnumerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		90DA3B6A28B371CF13F5CE58D5E77296 /* Bite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EE0E6449E854B0E2ACB9363C55A568 /* Bite-dummy.m */; };
+		ADECBBF6A0D83A10137F8870B70B623E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EE0088EC16B7D6E6FE0AC3E96EC86A /* Foundation.framework */; };
+		B16B11BE821864C3EC1916B5075F8121 /* BITEEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 42719877429BA37AAF321AC40136F62D /* BITEEnumerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C4EEAD004227A7ABD2DC2F38CAC19A7D /* BITEFilterEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1338FF51A0387E33477A40E6F9C6D /* BITEFilterEnumerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CDC1B1953858C9457B0F4213800CED1F /* BITESkipEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 97232C87046EA793A54116AD9917E5FF /* BITESkipEnumerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E2CDF9BB3C5CB733798C0D0C7C54A6CB /* BITEGrouping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2C901FF49A0920E90B1316C2881A44 /* BITEGrouping.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5A7DEC462F2991506C37F593C0CE0F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80807FFEB783CC053FA0F61B7B51870A;
+			remoteInfo = Bite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D2843CADEA17C4DA42215E4EAB607B /* BITEGrouping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BITEGrouping.h; path = Bite/BITEGrouping.h; sourceTree = "<group>"; };
+		07153A43CDF21DDD2C3180DACA983DFA /* BITEKeyPathEnumerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BITEKeyPathEnumerator.m; path = Bite/BITEKeyPathEnumerator.m; sourceTree = "<group>"; };
+		0B18D8EB707E1554E1B503E51E6D7A38 /* BITETakeEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BITETakeEnumerator.h; path = Bite/BITETakeEnumerator.h; sourceTree = "<group>"; };
+		0BED7C5E14D5EC9FC139CEED485E7430 /* Pods-Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		0C0DAD39BB023EB4659D128FD854D891 /* BITEKeyPathEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BITEKeyPathEnumerator.h; path = Bite/BITEKeyPathEnumerator.h; sourceTree = "<group>"; };
+		1617A9ACF0C9C2C02A440B957A238281 /* BITEFilterEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BITEFilterEnumerator.h; path = Bite/BITEFilterEnumerator.h; sourceTree = "<group>"; };
+		1AC00724CE9582ABAB2F282D5C5AE017 /* Pods-Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Extension.modulemap"; sourceTree = "<group>"; };
+		1DCD7981B47BC1AFBB7C4624B018183A /* Bite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bite-prefix.pch"; sourceTree = "<group>"; };
+		25EE0E6449E854B0E2ACB9363C55A568 /* Bite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bite-dummy.m"; sourceTree = "<group>"; };
+		2681A0A5650F2F4EB72B28ED11C8E3EB /* Bite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bite.h; path = Bite/Bite.h; sourceTree = "<group>"; };
+		27CC17CCF4648DC948F36CE4F04C2E24 /* BITEAndEnumerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BITEAndEnumerator.m; path = Bite/BITEAndEnumerator.m; sourceTree = "<group>"; };
+		27EEB5FDFC50843CE607006E95566C14 /* Pods-Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38EEA76A65CBA6BB2668C8A0B5208E64 /* Pods_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42719877429BA37AAF321AC40136F62D /* BITEEnumerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BITEEnumerator.m; path = Bite/BITEEnumerator.m; sourceTree = "<group>"; };
+		47457E34F147A24C9502DE56528F37FC /* Bite-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Bite-Private.xcconfig"; sourceTree = "<group>"; };
+		484BD425F3373E15DA76BF05FF85019F /* BITETuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BITETuple.h; path = Bite/BITETuple.h; sourceTree = "<group>"; };
+		507DAE7AF69A906557FE4818470A4FA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51D0B21AB70035637261C703A5C1988A /* BITEEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BITEEnumerator.h; path = Bite/BITEEnumerator.h; sourceTree = "<group>"; };
+		5710932BDC45EFA071CD1997F66C438E /* BITETuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BITETuple.m; path = Bite/BITETuple.m; sourceTree = "<group>"; };
+		5A2C901FF49A0920E90B1316C2881A44 /* BITEGrouping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BITEGrouping.m; path = Bite/BITEGrouping.m; sourceTree = "<group>"; };
+		5EC4DA0EC9F7751DD84063E0C9A69CDF /* Pods-Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Extension-dummy.m"; sourceTree = "<group>"; };
+		62EE0088EC16B7D6E6FE0AC3E96EC86A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		637CE56019D4618BEFC873E38AB28DA6 /* Bite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bite.xcconfig; sourceTree = "<group>"; };
+		67759E8E47CDE931173E034EFD80FA4E /* Bite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Bite.modulemap; sourceTree = "<group>"; };
+		6B102AD273325112DEA9192EA1AFB8FD /* BITESkipEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BITESkipEnumerator.h; path = Bite/BITESkipEnumerator.h; sourceTree = "<group>"; };
+		73379BD97E2BA9DE105CB7805845C873 /* Bite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA18868286895D685C14D15ACA64FBD /* Pods-Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Extension-resources.sh"; sourceTree = "<group>"; };
+		838461C8391E450C34B4CB45CCCD68B8 /* Pods-Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Extension-frameworks.sh"; sourceTree = "<group>"; };
+		97232C87046EA793A54116AD9917E5FF /* BITESkipEnumerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BITESkipEnumerator.m; path = Bite/BITESkipEnumerator.m; sourceTree = "<group>"; };
+		A138DE264456EB480403E83B093C5739 /* BITEUntilEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BITEUntilEnumerator.h; path = Bite/BITEUntilEnumerator.h; sourceTree = "<group>"; };
+		A80D5D249FD290B1D2E7E8FCF10E49E2 /* Pods-Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3291073F879DA470A14DD2056F8F09C /* Pods-Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Extension.release.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4C1338FF51A0387E33477A40E6F9C6D /* BITEFilterEnumerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BITEFilterEnumerator.m; path = Bite/BITEFilterEnumerator.m; sourceTree = "<group>"; };
+		CB86C8D86C4C9116496E1B837CB45A5C /* BITETakeEnumerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BITETakeEnumerator.m; path = Bite/BITETakeEnumerator.m; sourceTree = "<group>"; };
+		D8FE4AB67F8F7CAE4C72EC14483F195C /* BITEMapEnumerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BITEMapEnumerator.m; path = Bite/BITEMapEnumerator.m; sourceTree = "<group>"; };
+		DB13972DC9C2287500E9B6C450863E31 /* BITEUntilEnumerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BITEUntilEnumerator.m; path = Bite/BITEUntilEnumerator.m; sourceTree = "<group>"; };
+		E645F49C12613E8045A9A95B662AA52E /* Pods-Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Extension-umbrella.h"; sourceTree = "<group>"; };
+		E8AE743A35BE635478D1193B48DC6FFC /* BITEMapEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BITEMapEnumerator.h; path = Bite/BITEMapEnumerator.h; sourceTree = "<group>"; };
+		EC3DE05D44E8D2E34ABB0C7F62C7618F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBAC5A84A073B3671B2CEE5472D7DFC4 /* BITEAndEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BITEAndEnumerator.h; path = Bite/BITEAndEnumerator.h; sourceTree = "<group>"; };
+		FFE8DD639D24811E37907CA3BEA76019 /* Bite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bite-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AF54D504DB07B72EA3DFEF31000669B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FFEE4A9E066BF32290D2E963273A43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E390F42C91F110AF26FDCF36BA45C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADECBBF6A0D83A10137F8870B70B623E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09D5020DC548C0DD96DCB315561F4025 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF904ADC576D6B766EB95C992C854700 /* Pods-Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1584822EC776EFCA5096EC6A4D52420C /* Bite */ = {
+			isa = PBXGroup;
+			children = (
+				FBAC5A84A073B3671B2CEE5472D7DFC4 /* BITEAndEnumerator.h */,
+				27CC17CCF4648DC948F36CE4F04C2E24 /* BITEAndEnumerator.m */,
+				51D0B21AB70035637261C703A5C1988A /* BITEEnumerator.h */,
+				42719877429BA37AAF321AC40136F62D /* BITEEnumerator.m */,
+				1617A9ACF0C9C2C02A440B957A238281 /* BITEFilterEnumerator.h */,
+				C4C1338FF51A0387E33477A40E6F9C6D /* BITEFilterEnumerator.m */,
+				00D2843CADEA17C4DA42215E4EAB607B /* BITEGrouping.h */,
+				5A2C901FF49A0920E90B1316C2881A44 /* BITEGrouping.m */,
+				0C0DAD39BB023EB4659D128FD854D891 /* BITEKeyPathEnumerator.h */,
+				07153A43CDF21DDD2C3180DACA983DFA /* BITEKeyPathEnumerator.m */,
+				E8AE743A35BE635478D1193B48DC6FFC /* BITEMapEnumerator.h */,
+				D8FE4AB67F8F7CAE4C72EC14483F195C /* BITEMapEnumerator.m */,
+				6B102AD273325112DEA9192EA1AFB8FD /* BITESkipEnumerator.h */,
+				97232C87046EA793A54116AD9917E5FF /* BITESkipEnumerator.m */,
+				0B18D8EB707E1554E1B503E51E6D7A38 /* BITETakeEnumerator.h */,
+				CB86C8D86C4C9116496E1B837CB45A5C /* BITETakeEnumerator.m */,
+				484BD425F3373E15DA76BF05FF85019F /* BITETuple.h */,
+				5710932BDC45EFA071CD1997F66C438E /* BITETuple.m */,
+				A138DE264456EB480403E83B093C5739 /* BITEUntilEnumerator.h */,
+				DB13972DC9C2287500E9B6C450863E31 /* BITEUntilEnumerator.m */,
+				2681A0A5650F2F4EB72B28ED11C8E3EB /* Bite.h */,
+				ABFFCB848881F244BA822CD8453AEEE5 /* Support Files */,
+			);
+			path = Bite;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				62EE0088EC16B7D6E6FE0AC3E96EC86A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C9C162715DCCDDCDED6E280AB5B66FC2 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				09D5020DC548C0DD96DCB315561F4025 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ABFFCB848881F244BA822CD8453AEEE5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67759E8E47CDE931173E034EFD80FA4E /* Bite.modulemap */,
+				637CE56019D4618BEFC873E38AB28DA6 /* Bite.xcconfig */,
+				47457E34F147A24C9502DE56528F37FC /* Bite-Private.xcconfig */,
+				25EE0E6449E854B0E2ACB9363C55A568 /* Bite-dummy.m */,
+				1DCD7981B47BC1AFBB7C4624B018183A /* Bite-prefix.pch */,
+				FFE8DD639D24811E37907CA3BEA76019 /* Bite-umbrella.h */,
+				507DAE7AF69A906557FE4818470A4FA6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bite";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9C162715DCCDDCDED6E280AB5B66FC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1584822EC776EFCA5096EC6A4D52420C /* Bite */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73379BD97E2BA9DE105CB7805845C873 /* Bite.framework */,
+				38EEA76A65CBA6BB2668C8A0B5208E64 /* Pods_Extension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF904ADC576D6B766EB95C992C854700 /* Pods-Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EC3DE05D44E8D2E34ABB0C7F62C7618F /* Info.plist */,
+				1AC00724CE9582ABAB2F282D5C5AE017 /* Pods-Extension.modulemap */,
+				27EEB5FDFC50843CE607006E95566C14 /* Pods-Extension-acknowledgements.markdown */,
+				A80D5D249FD290B1D2E7E8FCF10E49E2 /* Pods-Extension-acknowledgements.plist */,
+				5EC4DA0EC9F7751DD84063E0C9A69CDF /* Pods-Extension-dummy.m */,
+				838461C8391E450C34B4CB45CCCD68B8 /* Pods-Extension-frameworks.sh */,
+				7BA18868286895D685C14D15ACA64FBD /* Pods-Extension-resources.sh */,
+				E645F49C12613E8045A9A95B662AA52E /* Pods-Extension-umbrella.h */,
+				0BED7C5E14D5EC9FC139CEED485E7430 /* Pods-Extension.debug.xcconfig */,
+				B3291073F879DA470A14DD2056F8F09C /* Pods-Extension.release.xcconfig */,
+			);
+			name = "Pods-Extension";
+			path = "Target Support Files/Pods-Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AE251D7315C8F945288309FE87BF9A57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547AC1FC0F0977D2BE6B61C62B0A605E /* Pods-Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D570627CF270BA68412F56BF387F0EA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F75DAEB5941583B611C51D35CC6C87B /* BITEAndEnumerator.h in Headers */,
+				65F2271E92C678C7A91A14643536EDC4 /* BITEEnumerator.h in Headers */,
+				6B34AD03D176DBB333816423F9D6F394 /* BITEFilterEnumerator.h in Headers */,
+				41CF13AAF13B08338C6AF480B0EAD17B /* BITEGrouping.h in Headers */,
+				5DF71A1ACC4D24B9EB9C676E2732196B /* BITEKeyPathEnumerator.h in Headers */,
+				6C0999FC6008A43231CF96E4A73A3826 /* BITEMapEnumerator.h in Headers */,
+				7CE5109A6456552F558ACE90224740E6 /* BITESkipEnumerator.h in Headers */,
+				3B1CD9C4AFD43BF681B1FDEA35C9B708 /* BITETakeEnumerator.h in Headers */,
+				596E72F120A8D846BCAFFBD185769BE4 /* BITETuple.h in Headers */,
+				0EB376E946609DB7846C138977D4A882 /* BITEUntilEnumerator.h in Headers */,
+				879E91A7ECB89FFAB264FE244EE17D32 /* Bite-umbrella.h in Headers */,
+				1A12D92E5CA8328AD4D39FC4A66D95CA /* Bite.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		353C7395BBB74ABEA1A540146B1A51BE /* Pods-Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98031A04D8B6C77AF1D84B44B9B324BD /* Build configuration list for PBXNativeTarget "Pods-Extension" */;
+			buildPhases = (
+				F77D621671A67221BCF5C3239767D653 /* Sources */,
+				7E390F42C91F110AF26FDCF36BA45C0A /* Frameworks */,
+				AE251D7315C8F945288309FE87BF9A57 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3016A9D182100507147CE64A11796069 /* PBXTargetDependency */,
+			);
+			name = "Pods-Extension";
+			productName = "Pods-Extension";
+			productReference = 38EEA76A65CBA6BB2668C8A0B5208E64 /* Pods_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80807FFEB783CC053FA0F61B7B51870A /* Bite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6893E1BA609F2F90F1F66A0A067E37 /* Build configuration list for PBXNativeTarget "Bite" */;
+			buildPhases = (
+				2A4B5DDFE6000C43AF7E7348BDFBDCDC /* Sources */,
+				0AF54D504DB07B72EA3DFEF31000669B /* Frameworks */,
+				D570627CF270BA68412F56BF387F0EA7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bite;
+			productName = Bite;
+			productReference = 73379BD97E2BA9DE105CB7805845C873 /* Bite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80807FFEB783CC053FA0F61B7B51870A /* Bite */,
+				353C7395BBB74ABEA1A540146B1A51BE /* Pods-Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A4B5DDFE6000C43AF7E7348BDFBDCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801D3D8C41F6C2B959C290642BC2198D /* BITEAndEnumerator.m in Sources */,
+				B16B11BE821864C3EC1916B5075F8121 /* BITEEnumerator.m in Sources */,
+				C4EEAD004227A7ABD2DC2F38CAC19A7D /* BITEFilterEnumerator.m in Sources */,
+				E2CDF9BB3C5CB733798C0D0C7C54A6CB /* BITEGrouping.m in Sources */,
+				3FD14D3BCC71B970779BC3EF2D316419 /* BITEKeyPathEnumerator.m in Sources */,
+				1AEBE6CD75FE6A90EAFB62803C753386 /* BITEMapEnumerator.m in Sources */,
+				CDC1B1953858C9457B0F4213800CED1F /* BITESkipEnumerator.m in Sources */,
+				8C9BA1DBF1E8B2F4C6B0F8D677C1161E /* BITETakeEnumerator.m in Sources */,
+				706D13FBA7D7F9086024CFFFB1AFED89 /* BITETuple.m in Sources */,
+				6CFE5E42940EB52F93A30947ED94A3E1 /* BITEUntilEnumerator.m in Sources */,
+				90DA3B6A28B371CF13F5CE58D5E77296 /* Bite-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77D621671A67221BCF5C3239767D653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FB434EF55F214EA089E85CDED0C821 /* Pods-Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3016A9D182100507147CE64A11796069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bite;
+			target = 80807FFEB783CC053FA0F61B7B51870A /* Bite */;
+			targetProxy = A5A7DEC462F2991506C37F593C0CE0F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38BEF1960E3B43BDC3C9C61C70252668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BED7C5E14D5EC9FC139CEED485E7430 /* Pods-Extension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Extension/Pods-Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Extension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B712964CA2D4E25724ECF24ED5210712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47457E34F147A24C9502DE56528F37FC /* Bite-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.3.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.3.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bite/Bite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bite/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Bite/Bite.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Bite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E724A49490FCB7F1656B7ECC26CBB65A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3291073F879DA470A14DD2056F8F09C /* Pods-Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Extension/Pods-Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Extension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E97CB8C184054423920C5311C7E25DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47457E34F147A24C9502DE56528F37FC /* Bite-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.3.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.3.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bite/Bite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bite/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Bite/Bite.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Bite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98031A04D8B6C77AF1D84B44B9B324BD /* Build configuration list for PBXNativeTarget "Pods-Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BEF1960E3B43BDC3C9C61C70252668 /* Debug */,
+				E724A49490FCB7F1656B7ECC26CBB65A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6893E1BA609F2F90F1F66A0A067E37 /* Build configuration list for PBXNativeTarget "Bite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B712964CA2D4E25724ECF24ED5210712 /* Debug */,
+				E97CB8C184054423920C5311C7E25DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
